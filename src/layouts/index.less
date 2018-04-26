@@ -1,0 +1,42 @@
+
+.headZContainer{
+    position: fixed;
+    top:0;
+    z-index: 99;
+    width: 100%;
+    background-color: white;
+    box-shadow: 0 3px 3px #888888;
+}
+.headContainer{
+    .header{
+        font-size: 40px;
+        color:#001529;
+        padding:0 60px;
+        // background:url(../assets/header.jpg);
+        // background-size: contain;
+        // background-repeat:no-repeat;
+        // background-position:right;
+    }
+    :global(.ant-menu-dark.ant-menu-horizontal){
+        padding:0 60px;
+        font-size: 20px;
+        @media screen and (max-width: 510px){
+            padding:0 20px;
+            font-size: 15px;
+        }
+    }
+}
+
+.footContainer{
+    padding: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction:column;
+    font-size: 20px;
+    background-color:#001529;
+    color:white;
+    .footRow{
+        margin: 5px 0;
+    }
+}
