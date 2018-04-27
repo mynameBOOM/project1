@@ -3,3 +3,4 @@ package-lock.json
 sh.exe.stackdump
 .vscode
 .umi
+dist
