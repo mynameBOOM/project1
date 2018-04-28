@@ -3,7 +3,7 @@ import router from 'umi/router';
 import { Menu, Icon } from 'antd';
 import styles from './index.less';
 // import { connect } from 'dva';
-
+import withRouter from 'umi/withRouter';
 
 export default class Layout extends React.Component {
 
